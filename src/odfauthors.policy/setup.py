@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the tdf.exttempsitepolicy package."""
+"""Installer for the odfauthorssitepolicy package."""
 
 from setuptools import find_packages
 from setuptools import setup
