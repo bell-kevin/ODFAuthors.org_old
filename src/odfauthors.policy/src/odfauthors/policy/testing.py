@@ -14,13 +14,6 @@ import odfauthors.policy
 import collective.MockMailHost
 
 
-from plone.app.testing import applyProfile
-from plone.app.testing import PLONE_FIXTURE
-
-
-from zope.configuration import xmlconfig
-
-
 class OdfauthorspolicyLayer(PloneSandboxLayer):
 
     defaultBases = (PLONE_APP_CONTENTTYPES_FIXTURE,)
