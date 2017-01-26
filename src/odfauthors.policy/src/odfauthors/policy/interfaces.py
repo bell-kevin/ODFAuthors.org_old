@@ -5,4 +5,4 @@ from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 
 
 class IOdfAuthorspolicyLayer(IDefaultBrowserLayer):
-   """Marker interface that defines a browser layer."""
+    """Marker interface that defines a browser layer."""
