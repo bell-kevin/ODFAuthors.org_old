@@ -20,31 +20,4 @@
       />
   <!-- -*- extra stuff goes here -*- -->
 
-
-  <genericsetup:importStep
-      name="odfauthors.policy-postInstall"
-      title="odfauthors.policy post_install import step"
-      description="Post install import step from odfauthors.policy"
-      handler=".setuphandlers.post_install">
-  </genericsetup:importStep>
-
-  <genericsetup:registerProfile
-      name="uninstall"
-      title="odfauthors.policy"
-      directory="profiles/uninstall"
-      description="Uninstalls the odfauthors.policy add-on."
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-
-  <genericsetup:importStep
-      name="odfauthors.policy-uninstall"
-      title="odfauthors.policy uninstall import step"
-      description="Import step run during ininstalling odfauthors.policy"
-      handler=".setuphandlers.uninstall">
-  </genericsetup:importStep>
-
-  <utility
-      factory=".setuphandlers.HiddenProfiles"
-      name="odfauthors.policy-hiddenprofiles" />
-
 </configure>
